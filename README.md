@@ -23,17 +23,7 @@ CREATE TABLE produtos (
     preco DECIMAL(10,2) NOT NULL
 );
 
-O sistema apresenta um formulário com os campos Nome do Produto e Preço. Após o preenchimento, os dados são enviados para o PHP, que realiza a validação antes de fazer a inserção no banco de dados.
 
-Primeiramente, o sistema verifica se o nome do produto não está vazio. Em seguida, verifica se o preço foi informado como um número maior que zero.
-
-Quando os dados são válidos, o produto é inserido na tabela produtos e o sistema apresenta a mensagem:
-
-Produto cadastrado com sucesso!
-
-Quando os dados são inválidos, uma mensagem de erro é apresentada ao usuário. Por exemplo:
-
-Erro: O preço deve ser um número positivo.
 
 ## **🔗 Tecnologias Utilizadas**
 PHP
@@ -41,7 +31,8 @@ HTML
 MySQL
 XAMPP
 MySQL pelo CMD
-🧪 Testes Realizados
+
+## 🧪 Testes Realizados
 
 Foram realizados testes para verificar o funcionamento do sistema.
 
@@ -101,7 +92,8 @@ DROP TABLE produtos;
 Para apagar o banco de dados inteiro:
 
 DROP DATABASE exercicio;
-📌 Conclusão
+
+## 📌 Conclusão
 
 A atividade possibilitou praticar a criação de um formulário em PHP, a conexão com um banco de dados MySQL e a validação de informações antes da inserção. Também foi possível aprender a utilizar o CMD para criar bancos, tabelas e consultar os dados armazenados no MySQL.
 
